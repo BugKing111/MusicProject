@@ -1,0 +1,24 @@
+import Vue from 'vue'
+import App from './App.vue'
+import router from './router'
+import store from './store'
+import Vant from 'vant'
+import 'vant/lib/index.css'
+// 测试
+// import homeApi from '@/api/homeApi'
+// async function myFn () {
+//   const res = await homeApi.recommendMusicAPI()
+//   console.log(res)
+// }
+// myFn()
+
+// 全局引入
+Vue.use(Vant)
+
+Vue.config.productionTip = false
+
+new Vue({
+  router,
+  store,
+  render: h => h(App)
+}).$mount('#app')
