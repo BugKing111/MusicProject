@@ -8,7 +8,7 @@ vue2+vant+axios等实现网易云音乐-（练手项目，功能：推荐歌单�
 ```
 npm install
 ```
-## API接口是用网易云开源的文档
+## 接口用的是网易云开源的API文档
 
 ```
 https://binaryify.github.io/NeteaseCloudMusicApi/#/?id=neteasecloudmusicapi
