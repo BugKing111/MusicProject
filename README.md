@@ -10,7 +10,9 @@ npm install
 ```
 ## API接口是用网易云开源的文档
 
-也可以把这个克隆到本地在终端输入：node app运行
+```
+https://binaryify.github.io/NeteaseCloudMusicApi/#/?id=neteasecloudmusicapi
+```
 
 ### Compiles and hot-reloads for development
 ```
